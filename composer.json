@@ -1,0 +1,41 @@
+{
+    "name": "urlhandler/url-handler",
+    "description": "make URL handler",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "url handler"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "UnDigital",
+            "homepage": "https://undigital.com.au/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "urlhandler\\urlhandler\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "URL Handler",
+        "handle": "url-handler",
+        "developer": "UnDigital",
+        "developerUrl": "https://undigital.com.au/",
+        "documentationUrl": "???",
+        "changelogUrl": "???",
+        "class": "urlhandler\\urlhandler\\UrlHandler"
+    }
+}
