@@ -10,10 +10,6 @@
         "craft-plugin",
         "url handler"
     ],
-    "support": {
-        "docs": "???",
-        "issues": "???"
-    },
     "license": "MIT",
     "authors": [
         {
